@@ -23,11 +23,14 @@ export const getQRCode = async (
         if (!user)
             return res
                 .status(401)
-                .json({ message: "User not registered OR Token malfunctioned" });
+                .json({ message: "User not registered or Token malfunctioned" });
     
-        const client = new Client({});
-        const config = configureOpenAI();
-        const openai = new OpenAIApi(config);
+        const client = 
+            new Client({});
+        const config = 
+            configureOpenAI();
+        const openai = 
+            new OpenAIApi(config);
 
         
         const qrCodePromise = new Promise((resolve, reject) => {
