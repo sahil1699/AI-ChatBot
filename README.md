@@ -25,5 +25,5 @@ Here is a glimpse of the WhatsApp chatbot in action.
 ### User Authentication:
 Login and sign-up functionalities are enabled, with user data stored securely in MongoDB.
 
-![Login screen](https://github.com/user-attachments/assets/2e85a1b6-d97e-4083-9055-a1bd4d312650)
-![Sign-up screen](https://github.com/user-attachments/assets/ee6fc0a9-62aa-4692-a34d-77254fd5c6e1)
+<img width="511" alt="login" src="https://github.com/user-attachments/assets/2e85a1b6-d97e-4083-9055-a1bd4d312650">
+<img width="536" alt="signin" src="https://github.com/user-attachments/assets/ee6fc0a9-62aa-4692-a34d-77254fd5c6e1">
